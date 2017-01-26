@@ -1,0 +1,9 @@
+/node_modules
+/public/storage
+/vendor
+/.idea
+.env
+.env.example
+.DS_Store
+/ambientum
+docker-compose.yaml
