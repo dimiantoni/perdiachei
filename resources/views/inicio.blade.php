@@ -118,10 +118,10 @@
 							data-endspeed="300"
 							data-endeasing="Power1.easeIn"
 							data-captionhidden="off"
-							style="z-index: 6"><h2 class="text-white custom-font title ">ENTENDA COMO FUNCIONA</h2>
+							style="z-index: 6"><h2 class="text-white custom-font title ">Ajudamos você a recuperar seu documento perdido</h2>
 
 					</div>
-				</li>					
+				</li>
 				<li data-transition="fade" data-slotamount="5" data-masterspeed="700" >
 					<!-- MAIN IMAGE -->
 					<img src="assets/img/bg/picture-1.jpg"   alt="slidebg2"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
@@ -136,7 +136,8 @@
 							data-endspeed="300"
 							data-endeasing="Power1.easeIn"
 							data-captionhidden="off"
-							style="z-index: 6"><h2 class="text-white custom-font title ">WE'VE DESIGN<br> EVERYTHING JUST FOR YOU</h2>
+							style="z-index: 6"><h2 class="text-white custom-font title ">Entenda<br> 
+							como funciona o nosso processo</h2>
 
 					</div>
 					<div class="tp-caption sfb slider tp-resizeme slider"
