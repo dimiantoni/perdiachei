@@ -12,11 +12,13 @@ return [
     | your application here. By default, Laravel is setup for SMTP mail.
     |
     | Supported: "smtp", "sendmail", "mailgun", "mandrill", "ses",
-    |            "sparkpost", "log", "array"
+    |            "sparkpost", "log", "array" 
+    | JÁ ESTÁ CONFIGURADO O DRIVER SMTP MAILTRAP PARA ENVIAR EMAILS DE
+    | TESTES COM O MAILTRAP
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'driver' => env('MAIL_DRIVER', 'ses'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +58,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'sistema@perdiachei.com'),
+        'name' => env('MAIL_FROM_NAME', 'Perdi Achei'),
     ],
 
     /*
@@ -105,6 +107,11 @@ return [
         'paths' => [
             resource_path('views/vendor/mail'),
         ],
+    ],
+
+    'to' => [
+        'address' => 'antonivargas@gmail.com',
+        'name' => 'Dimi Antoni'
     ],
 
 ];
