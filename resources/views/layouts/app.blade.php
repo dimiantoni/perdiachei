@@ -22,6 +22,19 @@
     </script>
 </head>
 <body>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/56eee80db16008fe73d48eb0/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
     <div id="app">
         <nav class="navbar navbar-inverse navbar-static-top">
             <div class="container">
@@ -45,13 +58,10 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-                        <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-                        <li><a href="https://gitter.im/vuejs/vue" target="_blank">Gitter Chat<span class="sr-only">(current)</span></a></li>
-                        <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-                        <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
+                        <li><a href="http://router.vuejs.org/" target="_blank">Estatísticas</a></li>
+                        <li><a href="http://vuex.vuejs.org/" target="_blank">Usuários</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Achados<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
@@ -62,6 +72,19 @@
                                 <li><a href="#">One more separated link</a></li>
                             </ul>
                         </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Perdidos<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Suporte</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -83,6 +106,7 @@
                                                      document.getElementById('logout-form').submit();">
                                             Sair
                                         </a>
+                                        <li><a href="#">Configurações</a></li>
 
                                         <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
                                             {{ csrf_field() }}
