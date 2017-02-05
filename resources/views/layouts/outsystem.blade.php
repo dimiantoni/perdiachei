@@ -12,7 +12,9 @@
 
     <!-- Styles -->
     {{-- <link href="/css/app.css" rel="stylesheet"> --}}
-    <link rel="stylesheet" type="text/css" href="http://bootswatch.com/flatly/bootstrap.min.css">
+    {{-- <link rel="stylesheet" type="text/css" href="http://bootswatch.com/flatly/bootstrap.min.css"> --}}
+    <link href="{{ asset('assets/system/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/system/css/flat-ui.css') }}" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -27,8 +29,11 @@
     </div>
 
     <!-- Scripts -->
+    <script src="{{ asset('assets/system/vendor/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/system/js/flat-ui.min.js') }}"></script>
+    <script src="{{ asset('assets/systemjs/vendor/video.js') }}"></script>
     <!-- <script src="/js/app.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> --}}
 </body>
 </html>
