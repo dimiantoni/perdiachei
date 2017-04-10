@@ -53,7 +53,7 @@
 				<div class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav navbar-right" >
 					<li ><a href="{{ url('/') }}">Home</a></li>
-					<li ><a href="tour.html">Como Funciona</a></li>
+					<li ><a href="tour.html">Funcionamento</a></li>
 					<li ><a href="#">Encontre</a></li>
 					<li ><a href="#">Devolva</a></li>
 					<li><a href="{{ url('/login') }}">Login</a></li>
