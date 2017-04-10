@@ -86,7 +86,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right" >
 			<li ><a href="{{ url('/') }}">Home</a></li>
-			<li ><a href="{{ url('/como-funciona') }}">Como Funciona</a></li>
+			<li ><a href="{{ url('/como-funciona') }}">Funcionamento</a></li>
 			<li ><a href="#">Perdi</a></li>
 			<li ><a href="#">Achei</a></li>
 			@if (Route::has('login'))
