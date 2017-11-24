@@ -11,7 +11,7 @@
     <title>{{ config('app.name', 'PerdiAchei') }}</title>
 
     <!-- Styles -->
-    {{-- <link href="/css/app.css" rel="stylesheet"> --}}
+    <!-- <link href="/css/app.css" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="http://bootswatch.com/flatly/bootstrap.min.css">
 
     <!-- Scripts -->
